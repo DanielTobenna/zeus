@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<title>ASTROROI - PROVIDING BEST RETURNS FOR YOUR INVESTMENTS</title>	
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="BEST PLATFORM FOR YOUR INVESTMENTS" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+        <script src="{% static 'js/jquery.min.js' %}"></script>
+	<!--// Meta tag Keywords -->   
+	<!-- banner slider css -->
+	<link href="{% static 'css/minimal-slider.css' %}" rel='stylesheet' type='text/css' />
+	<!-- //banner slider css -->	
+	<!-- css files -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"> <!-- Bootstrap-Core-CSS -->
+    <link href="{% static 'css/style6.css' %}" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="all" /> <!-- Style-CSS --> 
+	<link rel="stylesheet" href="{% static 'css/fontawesome-all.css' %}"> <!-- Font-Awesome-Icons-CSS -->
+	<!-- Testimonials-slider-css-files -->
+	<link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}" type="text/css" media="all">
+	<link href="css/owl.theme.css" rel="stylesheet">
+	<!-- //Testimonials-slider-css-files -->
+	<!-- //css files -->
+        <link rel="stylesheet" href="{% static 'cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' %}">	
+	<!--web font-->
+	<link href="http://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	<!--//web font-->
+        <link href="{% static 'dist1/css/toastme.css' %}" rel="stylesheet" />
+        <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon"/>
+  <script src="{% static 'dist1/js/toastme.js' %}"></script>
+  <script src="{% static 'code.jquery.com/jquery-2.2.0.min.js' %}"></script>
+
+</head>
+<body>
+<div style="height:62px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; 
+                     border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; 
+                     block-size:62px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; 
+                     box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px; width: 100%;">
+                    <div style="height:40px; padding:0px; margin:0px; width: 100%;">
+                        <iframe src="https://widget.coinlib.io/widget?type=horizontal_v2&amp;theme=dark&amp;pref_coin_id=1505&amp;invert_hover="
+                                width="100%" height="36px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" 
+                                style="border:0;margin:0;padding:0;"></iframe></div><div style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; 
+                                    padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                    <a href="https://coinlib.io/widgets" target="_blank" style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px"></a></div></div>
+<div id="myToast" class="toast-popup"></div>
+<div id="myToast1" class="toast-popup"></div>
+<div id="myToast2" class="toast-popup"></div>
+<div id="myToast3" class="toast-popup"></div>
+<div id="myToast4" class="toast-popup"></div>
+<div id="myToast5" class="toast-popup"></div>
+<div id="myToast6" class="toast-popup"></div>
+</body>
+<style>
+    .notification{
+        background-color: #4CAF50;
+        color: white;
+        text-decoration: none;
+        padding: 15px 26px;
+        position: relative;
+        display: inline-block;
+        border-radius: 2px;
+    }
+    .notification:hover{
+        background: #555;
+    }
+    .notification .badge{
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background-color: red;
+        color: white;
+    }
+    .notification1{
+        background-color: red;
+        color: white;
+        text-decoration: none;
+        padding: 15px 26px;
+        position: relative;
+        display: inline-block;
+        border-radius: 2px;
+    }
+    .notification1:hover{
+        background: #555;
+    }
+    </style>
+    <script>
+        var not1 = "Notification: $7,500.50 worth of Bitcoins invested by Allen Paul";
+        var not2 = "Notification: $34,500.50 worth of Bitcoins invested by Fred Mattew";
+        var not3 = "782 person(s) online";
+        var not4 = "Notification: $16,000.78 invested by  Belinda G. & Sidney J";
+        var not5 = "Notification: Request for withdrawal of & 3,000.50 of Bitcoins by Andrew C. processing";
+        var not6 = "Notification: 65 person(s) online";
+        var not7 = "Notification: Withdrawal of $12,000.50 by Brain T. confirmed";
+function first(){
+$('#myToast').showToast({
+   message: not1,
+   duration: 3000,
+   mode: 'success'
+});
+};
+function second(){
+$('#myToast1').showToast({
+   message: not2,
+   duration: 3000,
+   mode: 'success'
+});
+};
+function three(){
+$('#myToast2').showToast({
+   message: not3,
+   duration: 3000,
+   mode: 'success'
+});
+};
+function four(){
+$('#myToast3').showToast({
+   message: not4,
+   duration: 3000,
+   mode: 'success'
+});
+};
+function five(){
+$('#myToast4').showToast({
+   message: not5,
+   duration: 3000,
+   mode: 'success'
+});
+};
+function six(){
+$('#myToast5').showToast({
+   message: not6,
+   duration: 3000,
+   mode: 'success'
+});
+};
+function seven(){
+$('#myToast6').showToast({
+   message: not7,
+   duration: 3000,
+   mode: 'success'
+});
+};
+function eight(){
+    first();
+    setTimeout(second, 15000);
+};
+function nine(){
+    eight();
+    setTimeout(three, 28000);
+};
+function ten(){
+    nine();
+    setTimeout(four, 40000);
+};
+function eleven(){
+    ten();
+    setTimeout(five, 54000);
+};
+function twelve(){
+    eleven();
+    setTimeout(six, 66000);
+};
+function thirteen(){
+    twelve();
+    setTimeout(seven, 79000);
+};
+$(document).ready(function(){
+    thirteen();
+    setInterval(thirteen, 100000);
+});
+</script>
+<div style="overflow-x:auto;">
+        <div id="google_translate_element"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="{% static 'translate.google.com/translate_a/elementa0d8.html?cb=googleTranslateElementInit' %}"></script>
+</div><body>
+    <!-- header -->
+<div class="header-top">
+    <header>
+        <div class="top-head ml-lg-auto text-center">
+            <div class="row mr-0">
+                <div class="col-lg-4">
+                </div>
+                <div class="col-md-3 col-4 sign-btn">
+                    <a href="{% url 'signin' %}">
+                        <i class="fas fa-lock"></i> Sign In</a>
+                </div>
+                <div class="col-md-3 col-4 sign-btn">
+                    <a href="{% url 'signup' %}">
+                        <i class="fas fa-user"></i> Register</a>
+                </div>
+                <div class="search col-md-2 col-4">
+                    <div class="mobile-nav-button">
+                        <button id="trigger-overlay" type="button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!-- open/close -->
+                    <div class="overlay overlay-door">
+                        <button type="button" class="overlay-close">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </button>
+                        <form action="#" method="post" class="d-flex">
+                            <input class="form-control" type="search" placeholder="Search here..." required="">
+                            <button type="submit" class="btn btn-primary submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <!-- open/close -->
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="logo">
+                <h1>
+                    <a class="navbar-brand" href="index-2.html">
+                        <img src="{% static 'images/logo.png' %}" width="45" height="45" alt="logo">ASTROROI</a>
+                </h1>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-lg-auto text-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{% url 'home' %}">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'terms' %}">Terms & Conditions</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</div>
+<!-- header --><!-- main image slider container -->
+<section class="slide-window">
+    <div class="slide-wrapper" style="width:300%;">
+        <div class="slide">
+            <div class="slide-caption text-center">
+                <h2 class="text-uppercase">BEST INVESTMENT <span>PLANS</span></h2>
+                <p class="my-4">We offer the best investment plans. Best rates for you to earn the most from the platform.</p>
+                <div class="read">
+                    <a href="">Read More <span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                </div>				
+            </div>
+        </div>
+        <div class="slide slide2">
+            <div class="slide-caption text-center">
+                <h3 class="text-uppercase">FAST & <span>EASY </span></h3>
+                <p class="my-4">All protocols are sharp & fast and also easy to use for your convenience. Just signup and start trading.</p>
+                <div class="read">
+                    <a href="{% url 'signup' %}">Join Now!!<span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                </div>	
+            </div>
+        </div>
+        <div class="slide slide3">
+            <div class="slide-caption text-center">
+                <h3 class="text-uppercase">MAKE MONEY <span>NOW</span></h3>
+                <p class="my-4">The best way to make money. Make the best out of your little bucks. This is real!!!</p>
+                <div class="read">
+                    <a href="{% url 'contact' %}">Contact Us <span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                </div>	
+            </div>
+        </div>
+    </div>
+    <div class="slide-controller">
+        <div class="slide-control-left">
+            <div class="slide-control-line"></div>
+            <div class="slide-control-line"></div>
+        </div>
+        <div class="slide-control-right">
+            <div class="slide-control-line"></div>
+            <div class="slide-control-line"></div>
+        </div>
+    </div>
+</section>
+<!-- end of main image slider container --><section class="Welcome py-5">
+    <div class="container py-sm-3">
+        <div class="heading pb-4">
+            <h3 class="heading mb-2 text-center"> <span>ASTRO</span> ROI</h3>
+            <p class="para mb-5 text-center">ASTRO ROI is an innovative investment platform owned and operated by 247 Bitcoin Trading Ltd, a Newyork Investment firm with headquarter in Newyork, United States of America and agents in various countries.</p>
+        </div>	
+        <div class="row">
+            <div class="col-lg-6 about-img">
+                
+            </div>
+            <div style="text-align: center;" class="col-lg-12 about-right mt-lg-0 mt-5">
+                <h3>About Us</h3>
+                <h4>Join Us Today</h4>
+                <p class="my-4">Become part of a promising and fast growing company! Partnership with www.astroroi.net is first and foremost the ability to generate passive income.</p>
+                <!--/about-in-->
+                <div class="row">
+                    <div class="col-sm-6 about-in text-left">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fas fa-anchor"></i>
+                                <h5 class="card-title"> Registration</h5>
+                                <p class="card-text">Anonymous registration, full encryption of investments and data.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 about-in text-left">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="far fa-map"></i>
+                                <h5 class="card-title"> Withdrawals</h5>
+                                <p class="card-text">Instant withdrawals directly to your wallet with no fees attached.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 about-in text-left">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fas fa-dollar"></i>
+                                <h5 class="card-title"> Stable Profit</h5>
+                                <p class="card-text">Combination of AI and trading features allows to gain stable profit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 about-in text-left">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fas fa-globe"></i>
+                                <h5 class="card-title"> 247 Support</h5>
+                                <p class="card-text">Team of professionals ready to help you with any related questions 24/7
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/about-in-->
+            </div>
+        </div>
+    </div>	
+</section>
+<section class="banner-bottom py-lg-5 py-md-5 py-3" id="Features">
+    <div class="container">
+        <div class="inner-sec py-lg-5 py-3">
+            <div class="row middle-grids">
+                <div class="col-lg-4 col-sm-6 about-in middle-grid-info text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-key mb-2"></i>
+                            <h5 class="card-title text-uppercase my-3">Outcome Predictions</h5>
+                            <p class="card-text">Another advantage of AI is that it is able to predict outcomes based on data analysis.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-lg-0 mt-3 about-in middle-grid-info text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase my-3">Operational Automation</h5>
+                            <p class="card-text">AI is able to accomplish complicated assignments much faster than human beings can do.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-lg-0 mt-3 about-in middle-grid-info active text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-calculator mb-2"></i>
+                                <h5 class="card-title text-uppercase my-3">No Emotional Barrier</h5>
+                            <p class="card-text">AI algorithms do not present emotional barriers, that sometimes can obstruct the success of plans.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- welcome bottom -->
+<section class="Welcome-bottom">
+    <div class="bs-slider-overlay">
+        <div class="container">
+            <div class="welcome-bottom-grids row">			
+                <!-- Counter -->
+                <div class="col-lg-6 p-sm-5 p-4 welcome_left Features-bottom">
+                    <img src="{% static 'images/ab2.jpg' %}" alt=" " class="img-fluid mb-4">
+                </div>
+                <!-- //Counter -->
+                <div class="col-lg-6 p-sm-5 p-4 mt-lg-5 mt-0 welcome_bottom_right">
+                    <h3>Legal Business</h3>
+                    <p class="my-4">Our goal is to work permanently and build a widespread global network. We offer an excellent opportunity to earn extra income by just inviting other members to your team as partners.<br>Register No : #07997350<br>Date : 08 Nov, 2004</p>
+                    <div class="read">
+                        <<a href="{% url 'signup' %}"> Join Now!! <span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                    </div>
+                </div>
+            </div>	
+        </div>	
+    </div>	
+</section>
+<!-- //welcome bottom --><!-- Features -->
+<section class="features py-5" id="services">
+    <div class="container py-sm-5">
+        <div class="heading pb-4">
+            <h3 class="heading mb-2 text-center"> <span>Our </span> Services </h3>
+            <p class="para mb-5 text-center">What we provide and makes us distinct</p>
+        </div>
+        <div class="feature-grids row">
+            <div class="col-lg-4 col-md-6">
+                <div class="f1 p-sm-5 p-4">
+                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    <h3 class="my-3">ILimited Memory</h3>
+                    <p>In addition to having the capabilities of purely reactive machines, are also capable of learning from historical data to make decisions. We make the best available for you.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
+                <div class="f2-active p-sm-5 p-4">
+                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    <h3 class="my-3">Reactive Machines</h3>
+                    <p>These are the oldest forms of AI systems that have extremely limited capability.They emulate the human mind’s ability to respond to different kinds of stimuli.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-lg-0 mt-sm-5 mt-4">
+                <div class="f1 p-sm-5 p-4">
+                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    <h3 class="my-3">Theory Of Mind</h3>
+                    <p>These are the oldest forms of AI systems that have extremely limited capability. They emulate the human mind’s ability to respond to different kinds of stimuli.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //Features --><!-- pricing -->
+<section class="bottom-last">
+<section class="contact py-5" id="pricing">
+    <div class="container py-sm-4">
+        <div class="heading pb-4">
+            <h3 class="heading mb-2 text-center"> <span>Pricing </span> Plans </h3>
+            <p class="para mb-5 text-center">Our Investment Plans</p>
+            <p class="para mb-5 text-center">Long term Plans</p>
+        </div>
+        <div class="menu-grids">
+            <div class="row t-in">
+                <div class="col-md-4 col-sm-6 price-main-info text-center">
+                    <div class="price-inner card box-shadow">
+                        <div class="card-body">
+                            <h4 class="text-uppercase mb-3">Gold</h4>
+                            <h5 class="card-title pricing-card-title">
+                                <span class="align-top">$</span>50,000
+                            </h5>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>$50,000  Minimum</li>
+                                <li>$149,999 Maximum</li>
+                                <li>100% returns</li>
+                                <li>24/7 support</li>
+                            </ul>
+                            <div class="read">
+                                <a href="{% url 'signup' %}">Invest Now <span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 price-main-info text-center">
+                    <div class="price-inner card box-shadow">                      
+                        <div class="card-body">
+                            <h4 class="text-uppercase mb-3">Platinum</h4>
+                            <h5 class="card-title pricing-card-title">
+                                <span class="align-top">$</span>150,000
+                            </h5>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>$150,000  Minimum</li>
+                                <li>$299,999  Maximum</li>
+                                <li>100% returns</li>
+                                <li>24/7 support</li>
+                            </ul>
+                            <div class="read">
+                                <a href="{% url 'signup' %}">Invest Now <span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 price-main-info text-center">
+                    <div class="price-inner card box-shadow">
+                        <div class="card-body">
+                            <h4 class="text-uppercase mb-3">Diamond</h4>
+                            <h5 class="card-title pricing-card-title">
+                                <span class="align-top">$</span>300,000
+                            </h5>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>$300,000  Minimum</li>
+                                <li>$300,000  Maximum</li>
+                                <li>100% returns</li>
+                                <li>24/7 support</li>
+                            </ul>
+                            <div class="read">
+                                <a href="{% url 'signup' %}">Invest Now <span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+<section class="bottom-last">
+<section class="contact py-5" id="pricing">
+    <div class="container py-sm-4">
+        <div class="heading pb-4">
+            <h3 class="heading mb-2 text-center"> <span>Pricing </span> Plans </h3>
+            <p class="para mb-5 text-center">Our Investment Plans</p>
+            <p class="para mb-5 text-center">Short term Plans</p>
+        </div>
+        <div class="menu-grids">
+            <div class="row t-in">
+                <div class="col-md-4 col-sm-6 price-main-info text-center">
+                    <div class="price-inner card box-shadow">
+                        <div class="card-body">
+                            <h4 class="text-uppercase mb-3">Gold</h4>
+                            <h5 class="card-title pricing-card-title">
+                                <span class="align-top">$</span>1000
+                            </h5>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>$500  Minimum</li>
+                                <li>$9,999  Maximum</li>
+                                <li>100% returns</li>
+                                <li>24/7 support</li>
+                            </ul>
+                            <div class="read">
+                                <a href="{% url 'signup' %}">Invest Now <span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 price-main-info text-center">
+                    <div class="price-inner card box-shadow">                      
+                        <div class="card-body">
+                            <h4 class="text-uppercase mb-3">Platinum</h4>
+                            <h5 class="card-title pricing-card-title">
+                                <span class="align-top">$</span>10,000
+                            </h5>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>$10,000  Minimum</li>
+                                <li>$29,999  Maximum</li>
+                                <li>100% returns</li>
+                                <li>24/7 support</li>
+                            </ul>
+                            <div class="read">
+                                <a href="{% url 'signup' %}">Invest Now <span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 price-main-info text-center">
+                    <div class="price-inner card box-shadow">
+                        <div class="card-body">
+                            <h4 class="text-uppercase mb-3">Diamond</h4>
+                            <h5 class="card-title pricing-card-title">
+                                <span class="align-top">$</span>30,000
+                            </h5>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>$30,000  Minimum</li>
+                                <li>$200,000  Maximum</li>
+                                <li>100% returns</li>
+                                <li>24/7 support</li>
+                            </ul>
+                            <div class="read">
+                                <a href="{% url 'signup' %}">Invest Now <span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+<!-- //pricing --><section class="Welcome-bottom">
+    <div class="bs-slider-overlay">
+        <div class="container">
+            <div class="welcome-bottom-grids row">			
+                <!-- Counter -->
+                <div class="col-lg-6 p-sm-5 p-4 mt-lg-5 mt-0 welcome_bottom_right">
+                    <h3>LAST 10 DEPOSITS</h3>
+                    <div style="overflow-x:auto;">
+                        <table class="table">
+		      <thead>
+		        <tr>
+                            <th><div style='color:#fff'>#</div></th>
+                        <th><div style='color:#fff'>BTC</div></th>
+                        <th><div style='color:#fff'>AMOUNT</div></th>
+                        <th><div style='color:#fff'>ADDRESS</div></th>
+		        </tr>
+		      </thead>
+		      <tbody>
+                          
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>1<div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$7690.00<b></div></td>
+                                                <td><div style='color:blue'>address one one</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>2<div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$15298.00<b></div></td>
+                                                <td><div style='color:blue'>address 2</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>3<div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$90045<b></div></td>
+                                                <td><div style='color:blue'>bcggsjhq2you281</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>4<div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$24525<b></div></td>
+                                                <td><div style='color:blue'>address four</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>5<div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$2341<b></div></td>
+                                                <td><div style='color:blue'>address five</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>6<div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$6372<b></div></td>
+                                                <td><div style='color:blue'>address six</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>7<div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$2516<b></div></td>
+                                                <td><div style='color:blue'>address 7</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>8<div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$7263<b></div></td>
+                                                <td><div style='color:blue'>address eight</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>9<div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$2627<b></div></td>
+                                                <td><div style='color:blue'>address 9</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>10<div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$1628<b></div></td>
+                                                <td><div style='color:blue'>address 10</div></td>
+                                                </tr>
+                                                	        
+		      </tbody>
+		    </table>
+		    </div>
+                </div>
+                <!-- //Counter -->
+                <div class="col-lg-6 p-sm-5 p-4 mt-lg-5 mt-0 welcome_bottom_right">
+                    <h3>LAST 10 WITHDRAWALS</h3>
+                    <div style="overflow-x:auto;">
+                    <table class="table">
+		      <thead>
+		        <tr>
+		          <th><div style='color:#fff'>#</div></th>
+                        <th><div style='color:#fff'>BTC</div></th>
+                        <th><div style='color:#fff'>AMOUNT</div></th>
+                        <th><div style='color:#fff'>ADDRESS</div></th>
+		        </tr>
+		      </thead>
+		      <tbody>
+                          
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>1</div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$2004103.00</b></div></td>
+                                                <td><div style='color:blue'>address one one</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>2</div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$43298.00</b></div></td>
+                                                <td><div style='color:blue'>address 2</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>3</div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$4990023</b></div></td>
+                                                <td><div style='color:blue'>Tyshhxomabaa </div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>4</div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$24525</b></div></td>
+                                                <td><div style='color:blue'>address four</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>5</div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>1000</b></div></td>
+                                                <td><div style='color:blue'>wid address five</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>6</div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$6372</b></div></td>
+                                                <td><div style='color:blue'>address six</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>7</div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$2516</b></div></td>
+                                                <td><div style='color:blue'>address 7</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>8</div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$7263</b></div></td>
+                                                <td><div style='color:blue'>address eight</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>9</div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$2627</b></div></td>
+                                                <td><div style='color:blue'>address 9</div></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <th scope='row'><div style='color:#fff'>10</div></th>
+                                                <td><img src="{% static 'images/btc.png' %}" width='20' height='18'></td>
+                                                <td><div style='color:#fff'><b>$1628</b></div></td>
+                                                <td><div style='color:blue'>address 10</div></td>
+                                                </tr>
+                                                	        
+		      </tbody>
+		    </table>
+                </div>
+                </div>
+            </div>	
+        </div>	
+    </div>	
+</section>
+<!-- //welcome bottom --><!-- testimonals section -->
+<div class="testimonals">
+    <div class="container">
+        <div class="heading pb-4">
+            <h3 class="heading mb-2 text-center">Clients <span> Testimonials</span> </h3>
+            <p class="para mb-5 text-center">What our investors says</p>
+        </div>
+        <div class="section_1its-feedback-grids">
+            <div id="owl-demo" class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="testimonal grid-1">
+                        <div class="first-grid">
+                            <img src="{% static 'images/team4.jpg' %}" alt="" />
+                            <h3>Abigael Jordans</h3>
+                            <p>Wow, why didn't I hear of this earlier...this is just WOW. Thanks guys...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonal grid-1">
+                        <div class="first-grid">
+                            <img src="{% static 'images/team1.jpg' %}" alt="" />
+                            <h3>James</h3>
+                            <p>Making money has never been so easy. I am smiling to my bank every time</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonal grid-1">
+                        <div class="first-grid">
+                            <img src="{% static 'images/team3.jpg' %}" alt="" />
+                            <h3>Watson</h3>
+                            <p>My name is Watson and I am proud to say Astro Roi made me a millionaire. Thanks guys</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonal grid-1">
+                        <div class="first-grid">
+                            <img src="{% static 'images/team2.jpg' %}" alt="" />
+                            <h3>Isabel</h3>
+                            <p>This is the best investment platform I have ever been. They keep to their words.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /testimonals section --><!-- brands -->
+<section class="partners bg-light py-5">
+	<div class="container">
+		<div class="row partner-grids text-center">
+			<div class="col-md-2 col-4">
+				<div class="brand bg-white">
+					<a href="#"><i class="fab fa-angrycreative"></i></a>
+				</div>
+			</div>
+			<div class="col-md-2 col-4">
+				<div class="brand bg-white">
+					<a href="#"><i class="fab fa-apper"></i></a>
+				</div>
+			</div>
+			<div class="col-md-2 col-4">
+				<div class="brand bg-white">
+					<a href="#"><i class="fab fa-apple-pay"></i></a>
+				</div>
+			</div>
+			<div class="col-md-2 col-4 mt-md-0 mt-3">
+				<div class="brand bg-white">
+					<a href="#"><i class="fab fa-aviato"></i></a>
+				</div>
+			</div>
+			<div class="col-md-2 col-4 mt-md-0 mt-3">
+				<div class="brand bg-white">
+					<a href="#"><i class="fab fa-aws"></i></a>
+				</div>
+			</div>
+			<div class="col-md-2 col-4 mt-md-0 mt-3">
+				<div class="brand bg-white">
+					<a href="#"><i class="fab fa-amazon-pay"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //brands --><!-- footer -->
+<footer class="footer py-5">
+    <div class="container py-sm-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 footer-top">
+                <h3 class="mb-4 pb-3 w3f_title">Subscribe To Our Newsletter</h3>
+                <p>By subscribing to our mailing list you will always get latest news, offers and updates from us.</p>
+                <form>
+                    <input type="email" name="email" placeholder="Enter your email..." required="">
+                    <button class="btn1"><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
+                    <div class="clearfix"> </div>
+                </form>
+            </div>
+            <div class="col-lg-2  col-md-6 footv3-left mt-md-0 mt-5">
+                <h3 class="mb-4 pb-3 w3f_title">Navigation</h3>
+                <ul class="list-agileits">
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li class="my-2"><a href="">About Us</a></li>
+                    <li class="my-2"><a href="">Services</a></li>
+                    <li class="mb-2"><a href="">Pricing</a></li>
+                    <li class="mb-2"><a href="{% url 'contact' %}">Contact</a></li>
+                    <li class="mb-2"><a href="{% url 'terms' %}">Terms & Conditions</a></li>
+                </ul>
+                </div>
+            <div class="col-lg-3 col-md-6 mt-lg-0 mt-5">
+                <h3 class="mb-4 pb-3 w3f_title">Contact Us</h3>
+                <div class="fv3-contact">
+                    <span class="fas fa-envelope-open mr-2"></span>
+                    <p>
+                        <a href="mailto:support@astroroi.net">support@astroroi.net</a>
+                    </p>
+                </div>
+                <div class="fv3-contact my-3">
+                    <span class="fas fa-phone-volume mr-2"></span>
+                    <p></p>
+                </div>
+                <div class="fv3-contact">
+                    <span class="fas fa-home mr-2"></span>
+                    <p>ON-427 Ontario,
+                        <br>Canada.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 footerv2-w3ls mt-lg-0 mt-5">
+                <h3 class="mb-4 w3f_title pb-3">Get In Touch</h3>
+                <p>Contact us through our social media platforms</p>
+                <ul class="social-iconsv2 agileinfo mt-4">
+                    <li>
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fab fa-whatsapp"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	<!-- //footer bottom -->
+</footer>
+<!-- //footer -->
+
+<!-- copyright -->
+<div class="cpy-right text-center">
+	<p>© 2020 ASTRO ROI. All rights reserved</p>
+</div>
+<!-- //copyright -->
+
+	<!-- //Vertically centered Modal --><!-- js -->
+	<script src="{% static 'js/bootstrap.js' %}"></script> <!-- Necessary-JavaScript-File-For-Bootstrap --> 
+	<!-- //js -->
+	
+	<!-- search overlay -->
+    <script src="{% static 'js/modernizr-2.6.2.min.js' %}"></script> 
+	<!-- //search overlay -->
+	
+	<!--search jQuery-->
+    <script src="{% static 'js/classie-search.js' %}"></script>
+    <script src="{% static 'js/demo1-search.js' %}"></script>
+    <!--//search jQuery-->
+
+    <!-- dropdown nav -->
+    <script>
+        $(document).ready(function() {
+            $(".dropdown").hover(
+                function() {
+                    $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                    $(this).toggleClass('open');
+                },
+                function() {
+                    $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                    $(this).toggleClass('open');
+                }
+            );
+        });
+    </script>
+    <!-- //dropdown nav -->
+
+	<!-- banner slider js -->
+	<script src="{% static 'js/minimal-slider.js' %}"></script>
+	<!-- //banner slider js -->
+
+	<!-- Stats-Number-Scroller-Animation-JavaScript -->
+	<script src="{% static 'js/waypoints.min.js' %}"></script> 
+	<script src="{% static 'js/counterup.min.js' %}"></script> 
+	<script>
+		jQuery(document).ready(function( $ ) {
+			$('.counter').counterUp({
+				delay: 100,
+				time: 1000
+			});
+		});
+	</script>
+	<!-- //Stats-Number-Scroller-Animation-JavaScript -->
+
+	<!-- start-smoth-scrolling -->
+	<script src="{% static 'js/SmoothScroll.min.js' %}"></script>
+	<script src="{% static 'js/move-top.js' %}"></script>
+	<script src="{% static 'js/easing.js' %}"></script>
+	<script>
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+	<!-- for testimonials slider-js-file-->
+	<script src="{% static 'js/owl.carousel.js' %}"></script>
+	<!-- //for testimonials slider-js-file-->
+	<script>
+	$(document).ready(function() { 
+		$("#owl-demo").owlCarousel({
+
+			autoPlay: 3000, //Set AutoPlay to 3 seconds
+			autoPlay:true,
+			items : 3,
+			itemsDesktop : [640,5],
+			itemsDesktopSmall : [414,4]
+		});
+	}); 
+	</script>
+	<!-- for testimonials slider-js-script-->
+	<!-- here stars scrolling icon -->
+	<script>
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- start-smoth-scrolling --></body>
